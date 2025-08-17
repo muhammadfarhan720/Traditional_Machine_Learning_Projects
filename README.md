@@ -42,3 +42,45 @@ This project provided hands-on experience with:
 
 ---
 
+
+
+
+
+## 2️⃣ [Multilayer Perceptron Regression & Classification on Census Data](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MLP%20Regressor)
+
+**Core Skills:** `Supervised Learning`, `Neural Networks`, `MLP Regression & Classification`, `Regularization Techniques`, `LinearDiscriminantAnalysis1, `Hyperparameter Tuning`, `Model Evaluation`, `TensorFlow/Keras Implementation`
+
+### Project Overview
+- Applied **Multilayer Perceptrons (MLPs)** to census datasets for both regression and classification tasks.  
+- **Regression:** Predicted continuous `HDIVVAL` from features like AGI, age, sex, and work weeks using scikit-learn’s `MLPRegressor`.  
+- Experimented with **hidden nodes (3–6)** and **L2 regularization (0–0.01)** to study effects on overfitting/underfitting.  
+- **Classification:** Predicted binary `F_BIN` from raw features, optimizing `MLPClassifier` to achieve ~60% accuracy.  
+- Validated maximum achievable accuracy using **independent Linear Discriminant Analysis (LDA)**.  
+- Reimplemented regression in **TensorFlow/Keras**, comparing frameworks and selecting the optimal model (3 neurons) based on **loss curves and MSE**.  
+- Demonstrated how **network complexity and regularization** influence generalization, weights, and real-world applicability for census income prediction.  
+
+### Tools & Libraries
+- **Python** (scikit-learn, pandas, numpy, matplotlib)  
+- **Neural Networks:** `MLPRegressor`, `MLPClassifier` (scikit-learn); TensorFlow/Keras for custom models  
+- **Visualization:** matplotlib (loss curves, weight vs. epoch plots, confusion matrices)  
+- **Model Evaluation:** `mean_squared_error`, `accuracy_score`, `confusion_matrix`  
+- **Preprocessing:** `MinMaxScaler`, `train_test_split`  
+
+### Key Learnings
+- **Regularization Effects:** Increasing L2 (0 → 0.01) optimized weights to smaller values, reduced test MSE, and improved generalization—especially in larger models (6 hidden nodes)—helping prevent overfitting.  
+- **Network Size Impact:** Larger hidden layers (4–6 nodes) increased complexity and initial MSE but benefited from regularization; smaller networks (3 nodes) trained faster but risked underfitting.  
+- **Classification Optimization:** Tuned `MLPClassifier` (solver='sgd', alpha=0.001, hidden_size=3) to reach ~60% accuracy; validated via **LDA**, confirming dataset’s max achievable accuracy (~60%).  
+- **TensorFlow vs. scikit-learn:** Implemented regression in TensorFlow, noting similar MSE across 3–6 neuron networks. Chose **3-neuron model** for simplicity and low validation loss, and highlighted framework differences in training history tracking.  
+- **Performance Analysis:** Loss curves often showed validation loss < training loss due to small dataset size; **regularization stabilized training**, reflecting real-world ML trade-offs.  
+- **Business Insight:** Demonstrated how MLPs can predict income-related features from census data, with **regularization ensuring robust, generalizable models** for policy or economic analysis.  
+
+### Commands & APIs Practiced
+- `pd.read_excel()` – load census datasets  
+- `train_test_split()` – dataset splitting (e.g., test_size=0.3–0.4)  
+- `MinMaxScaler()` – feature/target normalization  
+- `MLPRegressor()` & `MLPClassifier()` – building/training MLPs (`partial_fit()` for epoch-wise training history)  
+- `mean_squared_error()`, `accuracy_score()`, `confusion_matrix()` – evaluation metrics  
+- `model.fit()`, `history.history` – TensorFlow/Keras training & loss visualization  
+- `LinearDiscriminantAnalysis()` – independent accuracy estimation (baseline check with LDA)  
+
+---
