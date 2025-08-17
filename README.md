@@ -9,35 +9,64 @@ This repository contains the major traiditional machine learning projects that I
 
 ## [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MIT_ECG_Seizure_Detection/Python_Team_Project/Python_Code_final)
 
+
 **Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
 
-### Project Overview  
+###### Project Overview  
 - Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for **~50M** patients globally.  
 - **Feature Engineering:** Extracted diverse EEG biomarkers including:  
-  - **Time-domain:** Averages, Interspike Intervals (ISI)  
-  - **Statistical:** Hjorth activity, mobility, complexity  
-  - **Frequency-domain:** FFT band powers (Delta–Gamma), Discrete Wavelet Transform  
-  - **Regional aggregations:** Frontal, Temporal, and Occipital grouped metrics  
+  - **Time-domain:** Averages, Interspike Intervals (ISI).  
+  - **Statistical:** Hjorth activity, mobility, complexity.  
+  - **Frequency-domain:** FFT band powers (Delta–Gamma), Discrete Wavelet Transform.  
+  - **Regional aggregations:** Frontal, Temporal, and Occipital grouped metrics.  
 - **Feature Selection:**  
-  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features  
-  - **MRMR:** Retained 10–50% of features for better accuracy–efficiency balance  
+  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features.  
+  - **MRMR:** Retained 10–50% of features for better accuracy–efficiency balance.  
 - **Supervised Learning:**  
-  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost)  
-  - **Result:** ~85% accuracy with tuned models (GridSearchCV)  
+  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost).  
+  - **Result:** ~85% accuracy with tuned models (GridSearchCV).  
 - **Unsupervised Learning:**  
-  - Applied **K-Means** clustering to discover seizure/non-seizure groups  
-  - Developed a **Condensed Silhouette Score** for improved cluster evaluation (k=6 optimal)  
-- **Healthcare Impact:** Delivered an interpretable, lightweight framework that reduces neurologist workload and accelerates epilepsy screening  
-
-### Tools & Libraries  
-- **Python:** pandas, numpy, scikit-learn, pyeeg, mifs, mrmr, matplotlib  
-- **MATLAB:** EEG segmentation (`EDF_Slicer.m`, `Siena_ref_maker.m`)  
-- **Modeling:** LogisticRegression, VotingClassifier, RandomForestClassifier, MLPClassifier, KMeans  
-- **Feature Extraction:** pywt (DWT), yasa (FFT), custom ISI/Hjorth scripts  
-- **Feature Selection:** mifs.MutualInformationFeatureSelector, mrmr_classif  
+  - Applied **K-Means** clustering to discover seizure/non-seizure groups.  
+  - Developed a **Condensed Silhouette Score** for improved cluster evaluation (k=6 optimal).  
+- **Healthcare Impact:** Delivered an interpretable, lightweight framework that reduces neurologist workload and accelerates epilepsy screening.  
 
 ---
 
+###### Tools & Libraries  
+- **Python:** pandas, numpy, scikit-learn, pyeeg, mifs, mrmr, matplotlib  
+- **MATLAB:** EEG segmentation (EDF_Slicer.m, Siena_ref_maker.m)  
+- **Modeling:** LogisticRegression, VotingClassifier, RandomForestClassifier, MLPClassifier, KMeans  
+- **Feature Extraction:** pywt (DWT), yasa (FFT), custom ISI/Hjorth scripts  
+- **Feature Selection:** mifs.MutualInformationFeatureSelector, mrmr_classif  
+- **Evaluation:** accuracy_score, cross_val_score, confusion_matrix, **Condensed Silhouette Score**  
+- **Preprocessing:** SimpleImputer, MinMaxScaler, train_test_split  
+
+---
+
+###### Key Learnings  
+- **EEG-Specific Feature Mastery:** Built features capturing temporal (ISI), spectral (FFT/DWT), and statistical (Hjorth) signatures of seizures.  
+- **Dimensionality Reduction Excellence:** Used JMI & MRMR to shrink feature space while improving performance.  
+- **Custom Metric Innovation:** Created **Condensed Silhouette Score**, extending standard clustering evaluation.  
+- **Balanced Models:** Achieved strong performance (~85% accuracy) with interpretable, resource-efficient classifiers.  
+- **Clinical Relevance:** Demonstrated how AI can scale to assist neurologists in early epilepsy detection.  
+
+---
+
+###### Commands & APIs Practiced  
+- `pd.read_csv()` / `pd.read_excel()`: Load EEG datasets  
+- `SimpleImputer()`: Handle missing values  
+- `MinMaxScaler()`: Normalize features  
+- `mifs.MutualInformationFeatureSelector()` / `mrmr_classif()`: Feature selection  
+- `LogisticRegression()` / `VotingClassifier()`: Train supervised models  
+- `KMeans()`: Clustering  
+- `cross_val_score()` / `confusion_matrix()`: Model evaluation  
+- **Custom Code:** EEG segmentation, engineered features, and Condensed Silhouette Score  
+
+
+---
+
+
+# 💻 Other Traditional Machine Learning Projects
 
 
 ## 1️⃣ [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decision_Tree)
@@ -246,59 +275,4 @@ This project provided hands-on experience with:
 
 
 ## 5️⃣ [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MIT_ECG_Seizure_Detection/Python_Team_Project/Python_Code_final)
-
-
-**Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
-
-###### Project Overview  
-- Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for **~50M** patients globally.  
-- **Feature Engineering:** Extracted diverse EEG biomarkers including:  
-  - **Time-domain:** Averages, Interspike Intervals (ISI).  
-  - **Statistical:** Hjorth activity, mobility, complexity.  
-  - **Frequency-domain:** FFT band powers (Delta–Gamma), Discrete Wavelet Transform.  
-  - **Regional aggregations:** Frontal, Temporal, and Occipital grouped metrics.  
-- **Feature Selection:**  
-  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features.  
-  - **MRMR:** Retained 10–50% of features for better accuracy–efficiency balance.  
-- **Supervised Learning:**  
-  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost).  
-  - **Result:** ~85% accuracy with tuned models (GridSearchCV).  
-- **Unsupervised Learning:**  
-  - Applied **K-Means** clustering to discover seizure/non-seizure groups.  
-  - Developed a **Condensed Silhouette Score** for improved cluster evaluation (k=6 optimal).  
-- **Healthcare Impact:** Delivered an interpretable, lightweight framework that reduces neurologist workload and accelerates epilepsy screening.  
-
----
-
-###### Tools & Libraries  
-- **Python:** pandas, numpy, scikit-learn, pyeeg, mifs, mrmr, matplotlib  
-- **MATLAB:** EEG segmentation (EDF_Slicer.m, Siena_ref_maker.m)  
-- **Modeling:** LogisticRegression, VotingClassifier, RandomForestClassifier, MLPClassifier, KMeans  
-- **Feature Extraction:** pywt (DWT), yasa (FFT), custom ISI/Hjorth scripts  
-- **Feature Selection:** mifs.MutualInformationFeatureSelector, mrmr_classif  
-- **Evaluation:** accuracy_score, cross_val_score, confusion_matrix, **Condensed Silhouette Score**  
-- **Preprocessing:** SimpleImputer, MinMaxScaler, train_test_split  
-
----
-
-###### Key Learnings  
-- **EEG-Specific Feature Mastery:** Built features capturing temporal (ISI), spectral (FFT/DWT), and statistical (Hjorth) signatures of seizures.  
-- **Dimensionality Reduction Excellence:** Used JMI & MRMR to shrink feature space while improving performance.  
-- **Custom Metric Innovation:** Created **Condensed Silhouette Score**, extending standard clustering evaluation.  
-- **Balanced Models:** Achieved strong performance (~85% accuracy) with interpretable, resource-efficient classifiers.  
-- **Clinical Relevance:** Demonstrated how AI can scale to assist neurologists in early epilepsy detection.  
-
----
-
-###### Commands & APIs Practiced  
-- `pd.read_csv()` / `pd.read_excel()`: Load EEG datasets  
-- `SimpleImputer()`: Handle missing values  
-- `MinMaxScaler()`: Normalize features  
-- `mifs.MutualInformationFeatureSelector()` / `mrmr_classif()`: Feature selection  
-- `LogisticRegression()` / `VotingClassifier()`: Train supervised models  
-- `KMeans()`: Clustering  
-- `cross_val_score()` / `confusion_matrix()`: Model evaluation  
-- **Custom Code:** EEG segmentation, engineered features, and Condensed Silhouette Score  
-
-
 
