@@ -208,7 +208,7 @@ This project provided hands-on experience with:
 
 
 
-## 5️⃣ [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects)
+## 5️⃣ [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MIT_ECG_Seizure_Detection/Python_Team_Project/Python_Code_final)
 
 
 **Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
