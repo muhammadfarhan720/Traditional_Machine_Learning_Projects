@@ -214,7 +214,7 @@ This project provided hands-on experience with:
 **Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
 
 ###### Project Overview  
-- Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for ~50M patients globally.  
+- Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for **~50M** patients globally.  
 - **Feature Engineering:** Extracted diverse EEG biomarkers including:  
   - **Time-domain:** Averages, Interspike Intervals (ISI).  
   - **Statistical:** Hjorth activity, mobility, complexity.  
