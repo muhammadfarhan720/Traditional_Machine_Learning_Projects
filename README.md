@@ -165,7 +165,7 @@ This project provided hands-on experience with:
 ---
 
 
-## 5️⃣ [K-Means Clustering on Iris and Gas Datasets](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/KMeans_Iris_Gas)
+## 5️⃣ [K-Means Clustering on Iris and Gas Datasets](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Unsupervised_Kmeans)
 
 **Core Skills:** `Unsupervised Learning`, `K-Means Clustering`, `Condensed Silhouette Score`, `Feature Scaling`, `Data Visualization`
 
