@@ -20,10 +20,10 @@ This project delivered a robust real-time seizure detection pipeline validated o
 > - **MIT 2,582 sample segments:** (2,546 non-seizure, 36 seizure)  
 > - **Siena 2,162 sample segments :** (2,141 non-seizure, 21 seizure)  
 
-Through advanced feature selection, we reduced EEG features by **95%**, enabling lightweight, high-sensitivity deployment for clinical and wearable applications.
+Through advanced feature selection, we reduced required EEG feature data by **95%**, enabling lightweight, high-sensitivity deployment for clinical and wearable applications.
 
 - **Clinical-Grade Accuracy:** Up to 99.5% accuracy and >98% sensitivity on real-time, unseen EEG test data, accelerating and improving epilepsy diagnosis.
-- **Scalable & Efficient:** 95% feature reduction without sacrificing accuracy, supporting low-latency, cost-effective implementation for millions of potential users.
+- **Scalable & Efficient:** 95% feature reduction of required input data without sacrificing accuracy, supporting low-latency, cost-effective implementation for millions of potential users.
 
 
 **Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
