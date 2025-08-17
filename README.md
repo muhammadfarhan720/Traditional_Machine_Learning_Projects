@@ -84,3 +84,44 @@ This project provided hands-on experience with:
 - `LinearDiscriminantAnalysis()` – independent accuracy estimation (baseline check with LDA)  
 
 ---
+
+## 3️⃣ NFL Pass Prediction with Logistic Regression & Feature Selection
+
+**Core Skills:** `Logistic Regression`, `Feature Selection`, `Data Preprocessing`, `One-Hot Encoding`, `Model Optimization`, `Sports Analytics`
+
+### Project Overview
+- Developed **logistic regression models** to predict NFL pass completion (`isIncomplete`) using the **2020 play-by-play dataset (pbp-2020.xlsx)**.  
+- **Data Preprocessing:**  
+  - Filtered to passing plays (`PlayType == "PASS"`).  
+  - Dropped irrelevant features (e.g., `DefenseTeam`, `IsInterception`, `IsFumble`).  
+  - Verified dataset balance (~65:35 incomplete:complete), so class rebalancing was not required.  
+  - Removed **high-cardinality and zero-information-gain features**.  
+  - Applied **One-Hot Encoding** to categorical variables like `OffenseTeam`, yielding **57 engineered features**.  
+- **Modeling Approach:**  
+  - Built a **full-feature logistic regression model** (accuracy ~0.928).  
+  - Applied **Forward Sequential Feature Selection** to reduce features from 57 → 6, achieving **higher accuracy (~0.943)** with lower test MSE.  
+- **Outcome:** Delivered an **efficient, interpretable model** that shows how thoughtful feature engineering can outperform brute-force complexity in **real-world sports analytics**.  
+
+### Tools & Libraries
+- **Python**: scikit-learn, pandas, numpy, matplotlib  
+- **Modeling:** `LogisticRegression` for binary classification  
+- **Feature Selection:** `SequentialFeatureSelector` for dimensionality reduction  
+- **Evaluation:** `accuracy_score`, `mean_squared_error`, `confusion_matrix`  
+- **Preprocessing:** `OneHotEncoder`, `train_test_split`  
+
+### Key Learnings
+- **Data Mastery:** Gained hands-on experience filtering domain-specific datasets (NFL plays), removing irrelevant/high-cardinality features, and applying **one-hot encoding** for categorical handling.  
+- **Feature Selection Impact:** Demonstrated how **forward selection reduced features (57 → 6)** while **improving accuracy (0.928 → 0.943)**, showing that **smaller, smarter models generalize better**.  
+- **Performance Optimization:** Balanced complexity vs. interpretability—lowered test MSE, improved R², and built a more **efficient, explainable model** for practical deployment.  
+- **Sports Analytics Application:** Illustrated how **logistic regression + feature selection** can drive **strategic insights** for coaching, game planning, or betting systems.  
+
+### Commands & APIs Practiced
+- `pd.read_excel()` – load play-by-play dataset  
+- `OneHotEncoder()` – categorical feature encoding  
+- `SequentialFeatureSelector()` – optimized feature reduction  
+- `LogisticRegression()` – train binary classifier  
+- `accuracy_score()`, `mean_squared_error()`, `confusion_matrix()` – performance evaluation  
+
+---
+
+
