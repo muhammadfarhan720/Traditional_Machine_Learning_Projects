@@ -40,5 +40,3 @@ This project provided hands-on experience with:
 
 ---
 
-🚀 **Relevance to Job Roles:**  
-This project mimics real-world classification problems where categorical and numerical features must be engineered, and trade-offs between model complexity, interpretability, and accuracy are evaluated. Skills like **feature preprocessing, model tuning, and performance validation** are directly applicable to roles in **Data Science, ML Engineering, and Applied AI Research**.
