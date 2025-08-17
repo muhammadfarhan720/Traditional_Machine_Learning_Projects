@@ -160,5 +160,48 @@ This project provided hands-on experience with:
 - `train_test_split()`: Split data into train/test sets  
 - `SVC()`: Train SVM models with different kernels  
 - `GridSearchCV()`: Optimize hyperparameters  
-- `accuracy_score()`: Evaluate performance  
+- `accuracy_score()`: Evaluate performance
+
+---
+
+
+## 5️⃣ [K-Means Clustering on Iris and Gas Datasets](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Unsupervised_Kmeans)
+
+**Core Skills:** `Unsupervised Learning`, `K-Means Clustering`, `Condensed Silhouette Score`, `Feature Scaling`, `Data Visualization`
+
+### Project Overview
+- Applied **K-Means clustering** on two datasets:  
+  - **Iris Dataset** → features: `sepal_length`, `petal_width`  
+  - **Gas Dataset** → all columns  
+- Tested cluster sizes **k = 2 to 20** for both datasets.  
+- **Preprocessing:** Normalized features with `MinMaxScaler` to ensure consistent scaling across variables.  
+- **Evaluation:** Implemented a **Custom Condensed Silhouette Score** to assess cluster quality beyond standard metrics.  
+- **Results:**  
+  - Optimal **k = 2** for Iris (score ≈ 0.738)  
+  - Optimal **k = 5** for Gas (score ≈ 0.395)  
+- **Visualization:**  
+  - Distribution tables and bar graphs for cluster sizes.  
+  - 2D scatter plot for Iris (k=2), highlighting clear cluster separation.  
+
+### Tools & Libraries
+- **Python**: scikit-learn, pandas, numpy, matplotlib  
+- **Clustering:** `KMeans` for cluster assignment  
+- **Evaluation:** Custom implementation of Condensed Silhouette Score  
+- **Visualization:** Matplotlib for scatter plots, bar charts, and tables  
+- **Preprocessing:** `MinMaxScaler` for normalization  
+
+### Key Learnings
+- **Metric Innovation:** Designed a **Condensed Silhouette Score**, showcasing problem-solving skills in unsupervised evaluation.  
+- **Optimal Clustering:** Identified best k-values (Iris: 2, Gas: 5) that aligned with dataset structure.  
+- **Normalization Impact:** Demonstrated the necessity of scaling features before clustering for fairer results.  
+- **Visualization:** Generated interpretable plots and tables that enhanced understanding of biological (Iris) and industrial (Gas) datasets.  
+
+### Commands & APIs Practiced
+- `pd.read_excel()`: Load datasets  
+- `MinMaxScaler()`: Normalize features  
+- `KMeans()`: Perform clustering with varying k  
+- `fit_predict()`: Assign cluster labels  
+- `matplotlib.pyplot`: Create bar graphs, scatter plots, and tables  
+- **Custom code:** Implemented Condensed Silhouette Score  
+
 
