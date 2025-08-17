@@ -129,3 +129,36 @@ This project provided hands-on experience with:
 ---
 
 
+
+## 4.1️⃣ [Rainfall Prediction with SVM Classifiers](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/SVM_Rainfall)
+
+**Core Skills:** `Support Vector Machines`, `Data Preprocessing`, `Imputation`, `Normalization`, `Hyperparameter Tuning`, `Model Evaluation`
+
+## Project Overview
+- Developed SVM classifiers to predict binary `RainToday` using weather data from **weatherAUS.csv**, leveraging predictors like `MinTemp`, `MaxTemp`, and `Humidity9am`.  
+- **Preprocessing:** Dropped rows with missing `RainToday`, imputed predictor missing values with medians, normalized features, and balanced the dataset (~65:35 imbalance) via oversampling.  
+- **Kernel Testing:** Linear (0.515), Poly (degree=3, ~0.519), RBF (0.519), and Sigmoid (~0.507); Poly and RBF emerged as top performers.  
+- **Optimization:** Tuned RBF with GridSearchCV (`C=100`, `gamma=1`), achieving ~0.531 accuracy, highlighting SVM adaptability for weather forecasting.  
+
+## Tools & Libraries
+- **Python**: scikit-learn, pandas, numpy  
+- **Modeling**: `SVC` with kernels (linear, poly, rbf, sigmoid)  
+- **Optimization**: `GridSearchCV` for hyperparameter tuning  
+- **Evaluation**: `accuracy_score` for classification performance  
+- **Preprocessing**: `SimpleImputer`, `MinMaxScaler`, `train_test_split`  
+
+## Key Learnings
+- **Data Handling:** Managed missing values with median imputation and balanced classes via oversampling, ensuring robust rainfall prediction.  
+- **Kernel Performance:** Poly and RBF kernels performed best (~0.519), with RBF further improved to ~0.531 through tuning.  
+- **Hyperparameter Optimization:** GridSearchCV tuning of `C` and `gamma` improved model performance and generalization.  
+- **Weather Analytics Insight:** Showcased how SVMs can predict rainfall, supporting agriculture and disaster preparedness.  
+
+## Commands & APIs Practiced
+- `pd.read_csv()`: Load dataset  
+- `SimpleImputer()`: Handle missing values with medians  
+- `MinMaxScaler()`: Normalize features  
+- `train_test_split()`: Split data into train/test sets  
+- `SVC()`: Train SVM models with different kernels  
+- `GridSearchCV()`: Optimize hyperparameters  
+- `accuracy_score()`: Evaluate performance  
+
