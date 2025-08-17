@@ -3,7 +3,7 @@ This repository contains the major traiditional machine learning projects that I
 
 # Census Income Prediction – Decision Trees & Random Forests
 
-**Course Project: Advanced Machine Learning (ECE 5424, Virginia Tech)**  
+**Course Project: Advanced Machine Learning**  
 **Core Skills:** Supervised Learning, Decision Trees, Random Forests, Feature Engineering, Model Evaluation  
 
 ## Project Overview
