@@ -17,8 +17,8 @@ This was the final project which we completed as a team of 4 members by dividing
 This project delivered a robust real-time seizure detection pipeline validated on **4744 samples** of 36 patients (22 MIT pediatric, 14 Siena adult) from two open-access EEG datasets—achieving up to **99.5% accuracy** (Random Forest/ensemble) and **98.5% accuracy** on fully unseen real-time EEG data.
 
 > **Total Real-Time Validation Samples:**  
-> - **MIT (36 pediatric):** 2,582 segments (2,546 non-seizure, 36 seizure)  
-> - **Siena (14 adult) :** 2,162 segments (2,141 non-seizure, 21 seizure)  
+> - **MIT 2,582 sample segments:** (2,546 non-seizure, 36 seizure)  
+> - **Siena 2,162 sample segments :** (2,141 non-seizure, 21 seizure)  
 
 Through advanced feature selection, we reduced EEG features by **95%**, enabling lightweight, high-sensitivity deployment for clinical and wearable applications.
 
