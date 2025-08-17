@@ -86,6 +86,8 @@ This project provided hands-on experience with:
 ---
 
 
+
+
 ## 3️⃣ [NFL Pass Prediction with Logistic Regression & Feature Selection](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Feature_Select_Logistic_Reg)
 
 
