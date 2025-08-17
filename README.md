@@ -82,11 +82,11 @@ This project delivered a robust, real-time seizure detection pipeline validated 
 ## 1️⃣ [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decision_Tree)
 
 
-- 1 Improved Policy Targeting: Achieved a 69%+ classification accuracy (confusion matrix accuracy ~0.69) in predicting whether an individual has dividend income (`HAS_DIV`) from census features, enabling precise, data-driven allocation of government resources and social programs.
+-  Improved Policy Targeting: Achieved a 69%+ classification accuracy (confusion matrix accuracy ~0.69) in predicting whether an individual has dividend income (`HAS_DIV`) from census features, enabling precise, data-driven allocation of government resources and social programs.
 
-- 2 Scalable, Interpretable Models: Optimized Random Forest and Decision Tree models with robust cross-validation (average score ~0.67), delivering interpretable, scalable solutions for predicting financial inclusion indicators in large population datasets.
+-  Scalable, Interpretable Models: Optimized Random Forest and Decision Tree models with robust cross-validation (average score ~0.67), delivering interpretable, scalable solutions for predicting financial inclusion indicators in large population datasets.
 
-- 3 Enhanced Decision Support: Demonstrated that feature engineering (continuous vs. binarized) improves predictive performance for `HAS_DIV`, empowering stakeholders to make evidence-based decisions affecting millions in real-world census applications.
+-  Enhanced Decision Support: Demonstrated that feature engineering (continuous vs. binarized) improves predictive performance for `HAS_DIV`, empowering stakeholders to make evidence-based decisions affecting millions in real-world census applications.
 
 **Core Skills:** `Supervised Learning`, `Decision Trees`, `Random Forests`, `Feature Engineering`, `Model Evaluation`  
 
