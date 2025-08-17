@@ -82,6 +82,14 @@ This project delivered a robust, real-time seizure detection pipeline validated 
 ## 1️⃣ [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decision_Tree)
 
 
+## Impact Summary
+
+- 1 Improved Policy Targeting: Achieved a 69%+ classification accuracy (confusion matrix accuracy ~0.69) for predicting key socioeconomic attributes from census data, enabling more precise and data-driven allocation of government resources and social programs.
+
+- 2 Scalable, Interpretable Models: Optimized Random Forest and Decision Tree models with robust cross-validation (average score ~0.67), delivering interpretable, scalable solutions suitable for high-impact applications in public sector analytics and financial inclusion.
+
+- 3 Enhanced Decision Support: Demonstrated that feature engineering (continuous vs. binarized) improves model performance, empowering stakeholders to make evidence-based decisions that affect millions in real-world population datasets.
+
 **Core Skills:** `Supervised Learning`, `Decision Trees`, `Random Forests`, `Feature Engineering`, `Model Evaluation`  
 
 ## Project Overview
