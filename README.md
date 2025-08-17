@@ -130,7 +130,7 @@ This project provided hands-on experience with:
 
 
 
-## 4.1️⃣ [Rainfall Prediction with SVM Classifiers](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/SVM_Classifier)
+## 4️⃣ [Rainfall Prediction with SVM Classifiers](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/SVM_Classifier)
 
 **Core Skills:** `Support Vector Machines`, `Data Preprocessing`, `Imputation`, `Normalization`, `Hyperparameter Tuning`, `Model Evaluation`
 
