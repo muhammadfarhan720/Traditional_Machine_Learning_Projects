@@ -14,10 +14,16 @@ This was the final project which we completed as a team of 4 members by dividing
 
 ## Impact Summary
 
-This project delivered a robust, real-time seizure detection pipeline validated on 36 patients (pediatric and adult) across two open-access EEG datasets, achieving up to **99.5% accuracy** in Random Forest and ensemble models, and **98.5% accuracy** on unseen real-time EEG data. By reducing the required EEG features by up to **95%** with advanced selection techniques, the solution enables lightweight, high-sensitivity deployment for clinical and wearable applications, demonstrating strong generalizability and real-world readiness.
+This project delivered a robust real-time seizure detection pipeline validated on **36 patients** (22 MIT pediatric, 14 Siena adult) from two open-access EEG datasets—achieving up to **99.5% accuracy** (Random Forest/ensemble) and **98.5% accuracy** on fully unseen real-time EEG data.
 
-- **Clinical-Grade Accuracy:** Achieved up to 99.5% accuracy and >98% sensitivity on real-time, unseen EEG test data, significantly improving the speed and reliability of epilepsy diagnosis.
-- **Efficiency & Scalability:** Reduced feature space by up to 95% without loss of accuracy, enabling cost-effective, real-time implementation in portable or wearable devices for millions of potential users.
+> **Total Real-Time Validation Samples:**  
+> - **MIT (36 pediatric):** 2,582 segments (2,546 non-seizure, 36 seizure)  
+> - **Siena (14 adult) :** 2,162 segments (2,141 non-seizure, 21 seizure)  
+
+Through advanced feature selection, we reduced EEG features by **95%**, enabling lightweight, high-sensitivity deployment for clinical and wearable applications.
+
+- **Clinical-Grade Accuracy:** Up to 99.5% accuracy and >98% sensitivity on real-time, unseen EEG test data, accelerating and improving epilepsy diagnosis.
+- **Scalable & Efficient:** 95% feature reduction without sacrificing accuracy, supporting low-latency, cost-effective implementation for millions of potential users.
 
 
 **Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
