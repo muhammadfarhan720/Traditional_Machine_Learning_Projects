@@ -7,6 +7,8 @@ This repository contains the major traiditional machine learning projects that I
 
 # 🌟 Final Mega Project
 
+This was the final project which we completed as a team of 4 members by dividing our roles in the data pre-processing and model building sections.
+
 ## [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MIT_ECG_Seizure_Detection/Python_Team_Project/Python_Code_final)
 
 
