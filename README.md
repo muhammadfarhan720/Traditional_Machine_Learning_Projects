@@ -181,6 +181,14 @@ This project provided hands-on experience with:
 
 ## 3️⃣ [NFL Pass Prediction with Logistic Regression & Feature Selection](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Feature_Select_Logistic_Reg)
 
+## Impact Summary 
+
+- NFL Pass Play Incompletion Prediction: Developed a logistic regression model to accurately predict whether an **NFL pass play** will be incomplete (`IsIncomplete`) using play-level features, boosting classification accuracy from **92.8% to 94.3%** (+1.5% absolute, ~2% relative improvement) after advanced feature selection—enabling more reliable analytics for coaches, teams, and sports analysts.
+
+- 90% Reduction in Data Needs: Reduced the input feature set from 57 to just 6 key predictors (via forward sequential feature selection), lowering data collection and processing requirements by nearly **90%**, while also decreasing test MSE and increasing R², streamlining real-time and post-game deployment.
+
+- Actionable Insights for Football Analytics: Delivers a lightweight, high-accuracy model that empowers NFL teams, broadcasters, and sports tech firms to quickly forecast pass incompletions, supporting smarter in-game decisions, live commentary, and post-game performance reviews.
+
 
 **Core Skills:** `Logistic Regression`, `Feature Selection`, `Data Preprocessing`, `One-Hot Encoding`, `Model Optimization`, `Sports Analytics`
 
