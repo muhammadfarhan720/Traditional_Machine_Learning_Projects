@@ -18,14 +18,14 @@ This was the final project which we completed as a team of 4 members by dividing
 - Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for **~50M** patients globally.  
 - **Feature Engineering:** Extracted diverse EEG biomarkers including:  
   - **Time-domain:** Averages, Interspike Intervals (ISI).  
-  - **Statistical:** Hjorth activity, mobility, complexity.  
+  - **Statistical:** Hjorth activity, mobility, complexity.  (Muhammad Farhan Azmine)
   - **Frequency-domain:** FFT band powers (Delta–Gamma), Discrete Wavelet Transform.  
   - **Regional aggregations:** Frontal, Temporal, and Occipital grouped metrics.  
 - **Feature Selection:**  
-  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features.  
+  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features. (Muhammad Farhan Azmine)
   - **MRMR:** Retained 10–50% of features for better accuracy–efficiency balance.  
 - **Supervised Learning:**  
-  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost).  
+  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost). (Muhammad Farhan Azmine) 
   - **Result:** ~85% accuracy with tuned models (GridSearchCV).  
 - **Unsupervised Learning:**  
   - Applied **K-Means** clustering to discover seizure/non-seizure groups.  
