@@ -49,7 +49,7 @@ This project provided hands-on experience with:
 ### Project Overview
 - Applied **Multilayer Perceptrons (MLPs)** to census datasets for both regression and classification tasks.  
 - **Regression:** Predicted continuous `HDIVVAL` from features like AGI, age, sex, and work weeks using scikit-learn’s `MLPRegressor`.  
-- Experimented with **hidden nodes (3–6)** and **L2 regularization (0–0.01)** to study effects on performance.  
+- Experimented with **hidden nodes (3–6)** and **L2 regularization (0–0.01)** to study effects on overfitting/underfitting.  
 - **Classification:** Predicted binary `F_BIN` from raw features, optimizing `MLPClassifier` to achieve ~60% accuracy.  
 - Validated maximum achievable accuracy using **independent Linear Discriminant Analysis (LDA)**.  
 - Reimplemented regression in **TensorFlow/Keras**, comparing frameworks and selecting the optimal model (3 neurons) based on **loss curves and MSE**.  
