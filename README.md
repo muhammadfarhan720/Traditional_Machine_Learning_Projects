@@ -3,6 +3,43 @@ This repository contains the major traiditional machine learning projects that I
 
 
 
+---
+
+# 🌟 Final Mega Project
+
+## [Automatic Seizure Detection on MIT & Siena EEG Data with Lightweight ML & Clustering](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MIT_ECG_Seizure_Detection/Python_Team_Project/Python_Code_final)
+
+**Core Skills:** `Supervised Learning`, `Unsupervised Learning`, `Feature Engineering`, `Feature Selection`, `EEG Signal Processing`, `Ensemble Methods`, `Custom Scoring`  
+
+### Project Overview  
+- Designed a **scalable AI pipeline** to detect seizures from EEG signals, addressing epilepsy diagnosis for **~50M** patients globally.  
+- **Feature Engineering:** Extracted diverse EEG biomarkers including:  
+  - **Time-domain:** Averages, Interspike Intervals (ISI)  
+  - **Statistical:** Hjorth activity, mobility, complexity  
+  - **Frequency-domain:** FFT band powers (Delta–Gamma), Discrete Wavelet Transform  
+  - **Regional aggregations:** Frontal, Temporal, and Occipital grouped metrics  
+- **Feature Selection:**  
+  - **JMI (Joint Mutual Information):** Selected 50–73 most informative features  
+  - **MRMR:** Retained 10–50% of features for better accuracy–efficiency balance  
+- **Supervised Learning:**  
+  - Trained Logistic Regression, Decision Trees, MLP, and ensemble VotingClassifier (LogReg, Naive Bayes, Random Forest, XGBoost)  
+  - **Result:** ~85% accuracy with tuned models (GridSearchCV)  
+- **Unsupervised Learning:**  
+  - Applied **K-Means** clustering to discover seizure/non-seizure groups  
+  - Developed a **Condensed Silhouette Score** for improved cluster evaluation (k=6 optimal)  
+- **Healthcare Impact:** Delivered an interpretable, lightweight framework that reduces neurologist workload and accelerates epilepsy screening  
+
+### Tools & Libraries  
+- **Python:** pandas, numpy, scikit-learn, pyeeg, mifs, mrmr, matplotlib  
+- **MATLAB:** EEG segmentation (`EDF_Slicer.m`, `Siena_ref_maker.m`)  
+- **Modeling:** LogisticRegression, VotingClassifier, RandomForestClassifier, MLPClassifier, KMeans  
+- **Feature Extraction:** pywt (DWT), yasa (FFT), custom ISI/Hjorth scripts  
+- **Feature Selection:** mifs.MutualInformationFeatureSelector, mrmr_classif  
+
+---
+
+
+
 ## 1️⃣ [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decision_Tree)
 
 
