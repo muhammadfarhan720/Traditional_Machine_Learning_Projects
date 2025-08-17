@@ -1,7 +1,9 @@
 # Traditional_Machine_Learning_Projects
 This repository contains the major traiditional machine learning projects that I had completed as a part of **"Advanced Machine Learning"** course.
 
-# [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decisiong_Tree)
+
+# 1. [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decisiong_Tree)
+
 
 
 
