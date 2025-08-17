@@ -4,7 +4,7 @@ This repository contains the major traiditional machine learning projects that I
 # Census Income Prediction – Decision Trees & Random Forests
 
 
-**Core Skills:** Supervised Learning, Decision Trees, Random Forests, Feature Engineering, Model Evaluation  
+**Core Skills:** 'Supervised Learning', Decision Trees, Random Forests, Feature Engineering, Model Evaluation  
 
 ## Project Overview
 The goal of this project was to predict whether an individual received dividend income (`HAS_DIV`) using census data.  
