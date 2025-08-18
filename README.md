@@ -86,7 +86,7 @@ Through advanced feature selection, we reduced required EEG feature data by **95
 
 
 ## 1️⃣ [Census Income Prediction – Decision Trees & Random Forests](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Random_Forest_Decision_Tree)
-
+<!--
 ## Impact Summary
 
 -  Improved Policy Targeting: Achieved a 69%+ classification accuracy (confusion matrix accuracy ~0.69) in predicting whether an individual has dividend income (`HAS_DIV`) from census features, enabling precise, data-driven allocation of government resources and social programs.
@@ -94,7 +94,7 @@ Through advanced feature selection, we reduced required EEG feature data by **95
 -  Scalable, Interpretable Models: Optimized Random Forest and Decision Tree models with robust cross-validation (average score ~0.67), delivering interpretable, scalable solutions for predicting financial inclusion indicators in large population datasets.
 
 -  Enhanced Decision Support: Demonstrated that feature engineering (continuous vs. binarized) improves predictive performance for `HAS_DIV`, empowering stakeholders to make evidence-based decisions affecting millions in real-world census applications.
-
+-->
 **Core Skills:** `Supervised Learning`, `Decision Trees`, `Random Forests`, `Feature Engineering`, `Model Evaluation`  
 
 ## Project Overview
@@ -136,7 +136,7 @@ This project provided hands-on experience with:
 
 
 ## 2️⃣ [Multilayer Perceptron Regression & Classification on Census Data](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/MLP%20Regressor)
-
+<!--
 ## Impact Summary
 
 - Predicting Personal Dividend Income: Built an MLP Regressor that predicts an individual’s dividend income value (`HDIVVAL`) from census data, reducing prediction error by over **98%** compared to random guessing (Test MSE ≈ 0.011–0.013 on a normalized 0–1 scale), making financial aid targeting much more accurate.
@@ -144,7 +144,7 @@ This project provided hands-on experience with:
 - Boosted Aid Distribution Accuracy: The model’s low error rate means organizations and policymakers can now identify people needing financial support with **98% more precision** versus not using machine learning, ensuring resources go where they’re needed most.
 
 - Smarter, Safer Model Design: By tuning the model’s complexity and using the right amount of regularization (L2 = 0.01, 3–6 neurons), we prevented overfitting and kept predictions reliable—improving overall income estimation accuracy by about **98%** compared to basic or untuned models.
-
+-->
 **Core Skills:** `Supervised Learning`, `Neural Networks`, `MLP Regression & Classification`, `Regularization Techniques`, `LinearDiscriminantAnalysis1, `Hyperparameter Tuning`, `Model Evaluation`, `TensorFlow/Keras Implementation`
 
 ### Project Overview
@@ -186,7 +186,7 @@ This project provided hands-on experience with:
 
 
 ## 3️⃣ [NFL Pass Prediction with Logistic Regression & Feature Selection](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Feature_Select_Logistic_Reg)
-
+<!--
 ## Impact Summary 
 
 - NFL Pass Play Incompletion Prediction: Developed a logistic regression model to accurately predict whether an **NFL pass play** will be incomplete (`IsIncomplete`) using play-level features, boosting classification accuracy from **92.8% to 94.3%** (+1.5% absolute, ~2% relative improvement) after advanced feature selection—enabling more reliable analytics for coaches, teams, and sports analysts.
@@ -194,7 +194,7 @@ This project provided hands-on experience with:
 - 90% Reduction in Data Needs: Reduced the input feature set from 57 to just 6 key predictors (via forward sequential feature selection), lowering data collection and processing requirements by nearly **90%**, while also decreasing test MSE and increasing R², streamlining real-time and post-game deployment.
 
 - Actionable Insights for Football Analytics: Delivers a lightweight, high-accuracy model that empowers NFL teams, broadcasters, and sports tech firms to quickly forecast pass incompletions, supporting smarter in-game decisions, live commentary, and post-game performance reviews.
-
+-->
 
 **Core Skills:** `Logistic Regression`, `Feature Selection`, `Data Preprocessing`, `One-Hot Encoding`, `Model Optimization`, `Sports Analytics`
 
@@ -236,7 +236,7 @@ This project provided hands-on experience with:
 
 
 ## 4️⃣ [Rainfall Prediction with SVM Classifiers](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/SVM_Classifier)
-
+<!--
 ## Impact Summary
 
 - **Processing Efficiency:** Accelerated SVM planar calculation using **Intel’s scikit-learn-intelex**, reducing computation time by **up to 5x faster**—enabling practical use of SVM learning on large datasets for scientific and industrial applications.
@@ -246,7 +246,7 @@ This project provided hands-on experience with:
 - Enhanced Model Robustness via Oversampling: Balanced the dataset through oversampling, ensuring both 'rain' and 'no rain' events are equally represented. This step enables fairer, more actionable predictions for meteorological agencies and agriculture planners, reducing bias against less frequent outcomes.
 
 - Practical Decision Support for Weather-Dependent Operations: With SVM models tuned for highest accuracy (RBF kernel, C=100, gamma=1), stakeholders in farming, logistics, and event planning benefit from a **~3% absolute improvement** in rain forecasting accuracy, aiding in more informed operational choices and risk management.
-
+-->
 **Core Skills:** `Support Vector Machines`, `Data Preprocessing`, `Imputation`, `Normalization`, `Hyperparameter Tuning`, `Model Evaluation`
 
 ## Project Overview
@@ -281,13 +281,13 @@ This project provided hands-on experience with:
 
 
 ## 5️⃣ [K-Means Clustering on Iris and Gas Datasets](https://github.com/muhammadfarhan720/Traditional_Machine_Learning_Projects/tree/main/Unsupervised_Kmeans)
-
+<!--
 ## Impact Summary
 
 - **Iris Dataset:** Achieved a high-quality clustering with a condensed silhouette score of **0.738** at k=2, indicating over **70%** well-separated grouping—enabling more than **70% improvement** in distinguishing natural clusters compared to random grouping.
 
 - **Gas Dataset:** Optimized cluster selection (k=5) led to a silhouette score of **0.395**, representing a **40% clearer separation** of natural groups—boosting accuracy of anomaly or pattern detection by approximately **40%** over unclustered data.
-
+-->
 **Core Skills:** `Unsupervised Learning`, `K-Means Clustering`, `Condensed Silhouette Score`, `Feature Scaling`, `Data Visualization`
 
 ### Project Overview
