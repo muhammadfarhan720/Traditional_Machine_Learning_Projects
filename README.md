@@ -239,7 +239,7 @@ This project provided hands-on experience with:
 
 ## Impact Summary
 
--- **Processing Efficiency:** Accelerated SVM planar calculation using Intel’s scikit-learn-intelex, reducing computation time by **up to 5x faster**—enabling practical use of SVM learning on large datasets for scientific and industrial applications.
+- **Processing Efficiency:** Accelerated SVM planar calculation using Intel’s scikit-learn-intelex, reducing computation time by **up to 5x faster**—enabling practical use of SVM learning on large datasets for scientific and industrial applications.
 
 - Improved Rain Prediction Accuracy: Applied SVM classifiers to forecast whether it will rain today (`RainToday`) using Australian weather data, achieving a **test accuracy of 53.1%** after data balancing and hyperparameter tuning—an improvement over random guessing (baseline: ~50% for balanced classes), providing a **6% relative increase** in predictive reliability for daily rainfall events.
 
