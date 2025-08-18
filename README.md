@@ -239,6 +239,8 @@ This project provided hands-on experience with:
 
 ## Impact Summary
 
+-- **Processing Efficiency:** Accelerated SVM planar calculation using Intel’s scikit-learn-intelex, reducing computation time by **up to 5x faster**—enabling practical use of SVM learning on large datasets for scientific and industrial applications.
+
 - Improved Rain Prediction Accuracy: Applied SVM classifiers to forecast whether it will rain today (`RainToday`) using Australian weather data, achieving a **test accuracy of 53.1%** after data balancing and hyperparameter tuning—an improvement over random guessing (baseline: ~50% for balanced classes), providing a **6% relative increase** in predictive reliability for daily rainfall events.
 
 - Enhanced Model Robustness via Oversampling: Balanced the dataset through oversampling, ensuring both 'rain' and 'no rain' events are equally represented. This step enables fairer, more actionable predictions for meteorological agencies and agriculture planners, reducing bias against less frequent outcomes.
@@ -285,8 +287,6 @@ This project provided hands-on experience with:
 - **Iris Dataset:** Achieved a high-quality clustering with a condensed silhouette score of **0.738** at k=2, indicating over **70%** well-separated grouping—enabling more than **70% improvement** in distinguishing natural clusters compared to random grouping.
 
 - **Gas Dataset:** Optimized cluster selection (k=5) led to a silhouette score of **0.395**, representing a **40% clearer separation** of natural groups—boosting accuracy of anomaly or pattern detection by approximately **40%** over unclustered data.
-
-- **Processing Efficiency:** Accelerated clustering using Intel’s scikit-learn-intelex, reducing computation time by **up to several times faster**—enabling practical use of unsupervised learning on large datasets for scientific and industrial applications.
 
 **Core Skills:** `Unsupervised Learning`, `K-Means Clustering`, `Condensed Silhouette Score`, `Feature Scaling`, `Data Visualization`
 
