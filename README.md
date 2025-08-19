@@ -239,7 +239,7 @@ This project provided hands-on experience with:
 <!--
 ## Impact Summary
 
-- **Processing Efficiency:** Accelerated SVM planar calculation using **Intel’s scikit-learn-intelex**, reducing computation time by **up to 5x faster**—enabling practical use of SVM learning on large datasets for scientific and industrial applications.
+
 
 - Improved Rain Prediction Accuracy: Applied SVM classifiers to forecast whether it will rain today (`RainToday`) using Australian weather data, achieving a **test accuracy of 53.1%** after data balancing and hyperparameter tuning—an improvement over random guessing (baseline: ~50% for balanced classes), providing a **6% relative increase** in predictive reliability for daily rainfall events.
 
@@ -250,6 +250,7 @@ This project provided hands-on experience with:
 **Core Skills:** `Support Vector Machines`, `Data Preprocessing`, `Imputation`, `Normalization`, `Hyperparameter Tuning`, `Model Evaluation`
 
 ## Project Overview
+- **Processing Efficiency:** Accelerated SVM planar calculation using **Intel’s scikit-learn-intelex**, reducing computation time by **up to 5x faster**—enabling practical use of SVM   learning on large datasets for scientific and industrial applications.
 - Developed SVM classifiers to predict binary `RainToday` using weather data from **weatherAUS.csv**, leveraging predictors like `MinTemp`, `MaxTemp`, and `Humidity9am`.  
 - **Preprocessing:** Dropped rows with missing `RainToday`, imputed predictor missing values with medians, normalized features, and balanced the dataset (~65:35 imbalance) via oversampling.  
 - **Kernel Testing:** Linear (0.515), Poly (degree=3, ~0.519), RBF (0.519), and Sigmoid (~0.507); Poly and RBF emerged as top performers.  
