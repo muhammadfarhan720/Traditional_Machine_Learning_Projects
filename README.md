@@ -90,11 +90,11 @@ Through advanced feature selection, we reduced required EEG feature data by **95
 ## Impact Summary
 
 -  Improved Policy Targeting: Achieved a 69%+ classification accuracy (confusion matrix accuracy ~0.69) in predicting whether an individual has dividend income (`HAS_DIV`) from census features, enabling precise, data-driven allocation of government resources and social programs.
-
+<!--
 -  Scalable, Interpretable Models: Optimized Random Forest and Decision Tree models with robust cross-validation (average score ~0.67), delivering interpretable, scalable solutions for predicting financial inclusion indicators in large population datasets.
 
 -  Enhanced Decision Support: Demonstrated that feature engineering (continuous vs. binarized) improves predictive performance for `HAS_DIV`, empowering stakeholders to make evidence-based decisions affecting millions in real-world census applications.
-
+-->
 **Core Skills:** `Supervised Learning`, `Decision Trees`, `Random Forests`, `Feature Engineering`, `Model Evaluation`  
 
 ## Project Overview
@@ -140,11 +140,11 @@ This project provided hands-on experience with:
 ## Impact Summary
 
 - Predicting Personal Dividend Income: Built an MLP Regressor that predicts an individual’s dividend income value (`HDIVVAL`) from census data, reducing prediction error by over **98%** compared to random guessing (Test MSE ≈ 0.011–0.013 on a normalized 0–1 scale), making financial aid targeting much more accurate.
-
+<!--
 - Boosted Aid Distribution Accuracy: The model’s low error rate means organizations and policymakers can now identify people needing financial support with **98% more precision** versus not using machine learning, ensuring resources go where they’re needed most.
 
 - Smarter, Safer Model Design: By tuning the model’s complexity and using the right amount of regularization (L2 = 0.01, 3–6 neurons), we prevented overfitting and kept predictions reliable—improving overall income estimation accuracy by about **98%** compared to basic or untuned models.
-
+-->
 
 **Core Skills:** `Supervised Learning`, `Neural Networks`, `MLP Regression & Classification`, `Regularization Techniques`, `LinearDiscriminantAnalysis1, `Hyperparameter Tuning`, `Model Evaluation`, `TensorFlow/Keras Implementation`
 
@@ -192,9 +192,11 @@ This project provided hands-on experience with:
 
 - NFL Pass Play Incompletion Prediction: Developed a logistic regression model to accurately predict whether an **NFL pass play** will be incomplete (`IsIncomplete`) using play-level features, boosting classification accuracy from **92.8% to 94.3%** (+1.5% absolute, ~2% relative improvement) after advanced feature selection—enabling more reliable analytics for coaches, teams, and sports analysts.
 
+<!--
 - 90% Reduction in Data Needs: Reduced the input feature set from 57 to just 6 key predictors (via forward sequential feature selection), lowering data collection and processing requirements by nearly **90%**, while also decreasing test MSE and increasing R², streamlining real-time and post-game deployment.
 
 - Actionable Insights for Football Analytics: Delivers a lightweight, high-accuracy model that empowers NFL teams, broadcasters, and sports tech firms to quickly forecast pass incompletions, supporting smarter in-game decisions, live commentary, and post-game performance reviews.
+-->
 
 **Core Skills:** `Logistic Regression`, `Feature Selection`, `Data Preprocessing`, `One-Hot Encoding`, `Model Optimization`, `Sports Analytics`
 
@@ -240,11 +242,11 @@ This project provided hands-on experience with:
 ## Impact Summary
 
 - Improved Rain Prediction Accuracy: Applied SVM classifiers to forecast whether it will rain today (`RainToday`) using Australian weather data, achieving a **test accuracy of 53.1%** after data balancing and hyperparameter tuning—an improvement over random guessing (baseline: ~50% for balanced classes), providing a **6% relative increase** in predictive reliability for daily rainfall events.
-
+<!--
 - Enhanced Model Robustness via Oversampling: Balanced the dataset through oversampling, ensuring both 'rain' and 'no rain' events are equally represented. This step enables fairer, more actionable predictions for meteorological agencies and agriculture planners, reducing bias against less frequent outcomes.
 
 - Practical Decision Support for Weather-Dependent Operations: With SVM models tuned for highest accuracy (RBF kernel, C=100, gamma=1), stakeholders in farming, logistics, and event planning benefit from a **~3% absolute improvement** in rain forecasting accuracy, aiding in more informed operational choices and risk management.
-
+-->
 **Core Skills:** `Support Vector Machines`, `Data Preprocessing`, `Imputation`, `Normalization`, `Hyperparameter Tuning`, `Model Evaluation`
 
 ## Project Overview
